@@ -1,0 +1,495 @@
+button{
+	font-size: 18px;
+}
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	color: #2a2a2a;
+}
+
+#main{
+	background: #fff;
+	box-shadow: 0px 3px 6px #00000029;
+	opacity: 1;
+}
+
+/* header */
+
+#header{
+	padding-top: 50px;
+	height: 125px;
+	width: 100%;
+}
+
+.container{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	max-width: 1400px;
+}
+
+.logo_navbar{
+	display: flex;
+	text-transform: uppercase;
+}
+
+#logo_img{
+	width: 208px;
+	height: 67px;
+	margin-right: 102px;
+}
+
+.logo_navbar ul{
+	display: flex;
+}
+
+.logo_navbar ul li{
+	list-style: none;
+	font-weight: 900;
+	margin-right: 70px;
+}
+
+.logo_navbar ul li a{
+	color: #2a2a2a;
+	text-decoration: none;
+}
+
+.order_now{
+	background: #00B3FA;
+	color: #2a2a2a;
+	width: 161px;
+	height: 40px;
+	text-align: center;
+	font-weight: 700;
+	border: none;
+	border-radius: 8px;
+	padding: 9px 32px 6px 33px;
+	margin-top: 14px;
+	cursor: pointer;
+}
+
+/* burger section */
+
+#burger{
+	background: url('img/trace.png') no-repeat;
+	color: #2a2a2a;
+	height: 604px;
+	padding-top: 50px;
+}
+
+#burger h1{
+	font-size: 84px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+
+#burger h2{
+	font-size: 24px;
+	margin-bottom: 20px;
+	font-weight: 900;
+}
+
+#burger button{
+	background: #F6E224;
+	padding: 8px 26px 7px 27px;
+	border: none;
+	border-radius: 8px;
+	font-weight: 900;
+}
+
+#burger img{
+	width: 625px;
+	height: 646px;
+}
+
+/* ingredients */
+
+#ingredients{
+	text-align: center;
+	margin-top: 240px;	
+}
+
+#ingredients h1{
+	font-size: 64px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+
+#ingredients h2{
+	font-size: 24px;
+	width: 730px;
+	font-weight: 900;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.ingredients div{
+	border-radius: 26px;
+	box-shadow: #00000029 0px 3px  6px;
+	width: 229px;
+	height: 242px;
+	display: inline-block;
+	padding-bottom: 20px;
+	margin: 20px;
+}
+
+#ingredients .buns img{
+	width: 194px;
+	height: 160px;
+	margin: 20px 17px 17px 18px;
+}
+
+#ingredients .salad img{
+	width: 152px;
+	height: 152px;
+	margin: 20px 39px 25px 38px;
+}
+
+#ingredients .tomato img{
+	width: 138px;
+	height: 149px;
+	margin: 20px 47px 28px 44px;
+}
+
+#ingredients .cheese img{
+	width: 137.47px;
+	height: 139.1px;
+	margin: 20px 47px 37.9px 44.59px;
+}
+
+#ingredients .describe{
+	width: 894px;
+	height: 160px;
+	margin: 0 auto;
+	margin-bottom: 150px;
+}
+
+/* story */
+
+#story{
+	padding-top: 50px;
+	margin-top: 150px;
+}
+
+#story .left{
+	width: 668px;
+}
+
+#story .right{
+	width: 635px;
+}
+
+#story h1{
+	font-size: 64px;
+	font-weight: 900;
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
+
+#story h2{
+	font-size: 24px;
+	width: 668px;
+	font-weight: 900;
+	margin-bottom: 50px;
+}
+
+#story p{
+	width: 668px;
+	height: 214px;
+	margin-right: 40px;
+}
+
+#story img{
+	border-radius: 30px;
+	
+	max-width: 100%;
+}
+
+/* burgers */
+
+#burgers{
+	text-align: center;
+	margin-top: 150px;
+
+}
+
+#burgers h1{
+	font-size: 64px;
+	font-weight: 900;
+	margin-bottom: 50px;
+}
+
+#burgers .types{
+	margin-bottom: 50px;
+	display: flex;
+    width: 100%;
+}
+
+#burgers .burger-types{
+	display: inline-block;
+	box-shadow: #00000029 0px 3px 6px;
+	border-radius: 26px;
+	margin: 16px;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+#burgers .burger-types h3{
+	font-size: 24px;
+	font-weight: 900;
+}
+
+.burger_img_wrap{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#burgers .burger-types img{
+	width: 220px;
+	height: 207px;
+	margin-top: 61px ;
+	margin-bottom: 42px
+}
+
+.burger_btn_wraper{
+	width: 100%;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+.burger-types button{
+	background: #fff;
+	color: #008BF6;
+	margin-right: 20px;
+	font-weight: 900;
+	border: none;
+	cursor: pointer;
+}
+
+#burgers .order_now{
+	margin: 0 auto;
+	margin-top: 36px;
+	margin-bottom: 150px;
+}
+
+.burger-details{
+	height: 207px;
+	display: none;
+}
+
+/* location */
+
+#location{
+	text-align: center;
+}
+
+#location h1{
+	font-size: 64px;
+	margin-bottom: 30px;
+	font-weight: 900;
+}
+
+#location .address p{
+	display: inline-block;
+	font-size: 24px;
+	margin: 30px;
+}
+
+span{
+	font-weight: 900;
+}
+
+#location iframe{
+	border-radius: 30px;
+}
+
+/* footer */
+
+#footer{
+	background: #F5F5F5;
+	margin-top: 150px;
+	margin-bottom: 28px;
+	
+}
+
+#footer img{
+	margin-top: 29px;
+	margin-bottom: 29px;
+}
+
+#footer p{
+	font-size: 14px;
+	text-align: right;
+}
+
+#footer p a{
+	text-decoration: none;
+	color: #2a2a2a;
+}
+
+
+/* header */
+
+@media screen and (max-width: 1920px) {
+  .order_now{
+  	font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  #header .container{
+  	display: flex;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #header .container{
+  	margin-left: 0px;
+
+  }
+  #header .container img{
+  	margin-right: 23px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #header .container{
+  	display: inline;
+
+  }
+  #header .header_button{
+  	margin-left: 42%;	
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #header{
+	margin-bottom: 250px;
+  }
+  #header .container{
+  	margin: 0 auto;
+  }
+  #header .logo_navbar{
+  	display: block;
+  }
+  #header .logo_navbar img{
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+  #header .logo_navbar ul{
+  	display: flex;
+  	flex-direction: column;
+  	text-align: center;
+  }
+  #header .logo_navbar ul li{
+  	padding: 10px;
+  	border: 1px solid lightgrey;
+  }
+  #header .header_button{
+  	margin-left: 32%;	
+  }
+  #header .order_now{
+  	margin-left: 12%;
+  }
+}
+
+/* burger */
+
+@media screen and (max-width: 1320px) {
+   #burger{
+	padding-bottom: 240px;
+   }
+
+  #burger .container{
+  	display: block;
+  	text-align: center;
+  }
+
+  #burger .left{
+  	margin-bottom: 50px;
+  }
+
+   #burger .left h2, button{
+  	font-size: 25px;
+  }
+
+}
+
+/* ingredients */
+
+@media screen and (max-width: 1092px) {
+  .ingredients{
+  	width: 70%;
+  	display: block;
+  	margin: 0 auto;
+  }
+  .buns, .salad, .tomato, .cheese p{
+  	font-size: 25px;
+  }
+  .describe{
+  	font-size: 30px;
+  }  
+}
+
+@media screen and (max-width: 576px) {
+	.ingredients{
+	  	width: 40%;
+	  	display: block;
+  		margin: 0 auto;
+	}
+}
+
+/* story */
+
+@media screen and (max-width: 1260px) {
+	#story .container{
+		display: block;
+		width: 50%;
+		margin: 0 auto;
+	}
+	#story h1{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	#story{
+		font-size: 30px;
+	}
+}
+
+/* burgers */
+
+@media screen and (max-width: 1200px) {
+	#burgers .burger-types{
+		display: block;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	#burgers .types{
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.burger-types .jsDetailsToggle{
+		font-size: 30px;
+	}
+}
+
+/* location */
+
+@media screen and (max-width: 576px) {
+	#location .address{
+		font-size: 30px;
+	}
+}

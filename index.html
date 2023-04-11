@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Burger Factory</title>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+	<div id="main">
+		<header id="header">
+			<div class="container">
+				<div class="logo_navbar">
+					<img id="logo_img" src="img/logo.png">
+					<ul>
+						<li><a href="#ingredients">ingredient</a></li>
+						<li><a href="#story">story</a></li>
+						<li><a href="#burgers">burgers</a></li>
+						<li><a href="#location">location</a></li>
+					</ul>
+				</div>
+				<div class="header_button">
+					<button class="order_now" onclick="makeOrder()">Order now</button>
+				</div>
+			</div>
+		</header>
+
+		<section id="burger">
+			<div class="container">
+				<div class="left">
+					<h1>Burger Factory</h1>
+					<h2>Your dream burger close to your locations!</h2>
+					<button>Discover the ingredients</button>
+				</div>
+				<div class="right">
+					<img src="img/burger.png">
+				</div>
+			</div>
+		</section>
+
+		<section id="ingredients">
+			<h1>Ingredients</h1>
+			<h2>Lorem ipsum dolor sit amet, consecteur adipiscing elit. Fusce mollis id arcu vel maximus.</h2>
+			<div class="ingredients">
+				<div class="buns">
+					<img src="img/bun.png">
+					<p>buns</p>
+				</div>
+				<div class='salad'>
+					<img src="img/cabbage.png">
+					<p>Salad</p>
+				</div>
+				<div class="tomato">
+					<img src="img/tomato.png">
+					<p>Tomato</p>
+				</div>
+				<div class="cheese">
+					<img src="img/cheese.png">
+					<p>Cheese</p>
+				</div>
+			</div>
+			<p class="describe">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget consequat lorem. Ut nec placerat purus. Fusce vitae faucibus augue, non commodo elit. Integer risus orci, ultricies ac dapibus sed, dignissim interdum quam. Proin quis dignissim diam. Donec id magna placerat, fringilla odio et, efficitur lacus. Vivamus eu ultricies erat, eu lobortis nunc. Sed nec dignissim libero. Integer cursus leo nunc. Nulla mattis interdum nunc, sed semper turpis. Cras elit lorem, mollis ut feugiat ac, ultricies eu dolor.</p>
+		</section>
+
+		<section id="story">
+			<div class="container">
+				<div class="left">
+					<h1>The story</h1>
+					<h2>Lorem ipsum dolor sit amet, consecteur adipiscing elit. Fusce mollis id arcu vel maximus.</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget consequat lorem. Ut nec placerat purus. Fusce vitae faucibus augue, non commodo elit. Integer risus orci, ultricies ac dapibus sed, dignissim interdum quam. Proin quis dignissim diam. Donec id magna placerat, fringilla odio et, efficitur lacus. Vivamus eu ultricies erat, eu lobortis nunc. Sed nec dignissim libero. Integer cursus leo nunc. Nulla mattis interdum nunc, sed semper turpis. Cras elit lorem, mollis ut feugiat ac, ultricies eu dolor.</p>
+				</div>
+				<div class="right">
+					<img src="img/burger_story.png">
+				</div>
+			</div>
+		</section>
+
+		<section id="burgers">
+			<h1>Burgers</h1>
+			<div class="types">
+				<div class="burger-types">
+					<h3>1/4 Pound Cheese</h3>
+					<div class="burger-types-img">
+						<div class="burger_img_wrap">
+							<img src="img/burger_type.png">
+						</div>
+						<div class="burger_btn_wraper">
+							<button class="jsDetailsToggle active" data-details-class="jsBurgerDetails2">Details</button>
+						</div>
+					</div>
+					<div class="jsBurgerDetails1 burger-details">
+						lorem ipsum is dolor amet lorem ipsum is dolor amet v lorem ipsum is dolor amet lorem ipsum is dolor ametlorem ipsum is dolor ametvvvvvvlorem ipsum is dolor ametlorem ipsum is dolor ametlorem ipsum is dolor amet lorem ipsum is dolor ametlorem ipsum is dolor ametlorem ipsum is dolor ametv
+					</div>
+				</div>
+
+				<div class="burger-types">
+					<h3>Big Burger</h3>
+					<div class="burger-types-img">
+			            <div class="burger_img_wrap">
+							<img src="img/burger_type.png">
+						</div>
+						<div class="burger_btn_wraper">
+							<button class="jsDetailsToggle" data-details-class="jsBurgerDetails2">Details</button>
+						</div>
+					</div>
+					<div class="jsBurgerDetails2 burger-details">
+						
+					</div>
+				</div>
+
+				<div class="burger-types">
+					<h3>Pure Bacon</h3>
+					<div class="burger-types-img">
+			            <div class="burger_img_wrap">
+							<img src="img/burger_type.png">
+						</div>
+						<div class="burger_btn_wraper">
+							<button class="jsDetailsToggle" data-details-class="jsBurgerDetails3">Details</button>
+						</div>					
+					</div>
+					<div class="jsBurgerDetails3 burger-details">
+						
+					</div>
+				</div>
+			</div>
+			<button class="order_now" onclick="makeOrder()">Order now</button>
+		</section>
+
+		<section id="location">
+			<h1>Location</h1>
+			<div class="address">
+				<p><span>Burger Factory<span></p>
+				<p>PI. de la Riponne 10</p>
+				<p>1005 Lausanne</p>
+				<p>021 800 00 00</p>
+			</div>
+			<p>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8936.164880315504!2d6.6323875!3d46.5241449!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c2f04dcdbacc1%3A0x5b8fd0a9cd1e2126!2sUn%20Po&#39;%20Di%20Pi%C3%B9%20Trattoria!5e1!3m2!1suk!2sua!4v1680614365622!5m2!1suk!2sua" width="860" height="483" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</p>
+		</section>
+
+		<footer id="footer">
+			<div class="container">
+				<div>
+					<img id="logo_img" src="img/logo.png">
+				</div>
+				<div class="address">
+					<p><span>Burger Factory<span></p>
+					<p>PI. de la Riponne 10</p>
+					<p>1005 Lausanne</p>
+					<p class="phone"><a href="tel:021-00-0000">021 800 00 00</a></p>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="main.js"></script>
+	
+
+</body>
+</html>
+<!-- add google map to site https://www.youtube.com/watch?v=KIC0OK9nKXY -- >

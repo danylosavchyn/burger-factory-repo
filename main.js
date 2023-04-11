@@ -1,8 +1,28 @@
+document.querySelectorAll('.jsDetailsToggle').forEach(element => {
+  element.addEventListener("click", function(event) {
+    event.preventDefault();
+
+    // console.log(event.target.attributes);
+
+    const burgerDetailsId = event.target.attributes['data-details-class'].value;
+    const burgerElement = document.querySelectorAll(`.${burgerDetailsId}`)[0];
+
+    if (burgerElement.classList.contains('active')) {
+      burgerElement.classList.remove('active');
+    } else {
+      burgerElement.classList.add('active');
+    }
+  });
+})
+
+/*
 $(document).ready(function(){
 	$('.jsDetailsToggle').click(function(){
 		$('.burger-details').toggle();
 	});
 });
+*/
+
 
 /*
 let burgers = [
